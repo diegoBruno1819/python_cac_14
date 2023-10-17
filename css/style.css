@@ -10,31 +10,33 @@ body, ul {
 
 nav{
     display: flex;
-    background-color: rgb(29, 9, 9);
+    height: 4.5rem;
+    background-color: rgb(29, 14, 14);
     position: relative;
     top: 40px;
 }
 
-h1{
-    margin: 20px 50px;
+nav h1{
+    margin: 20px 6rem;
 }
 
 nav ul {
-    width: 100%;
     display: flex;
     gap: 20px;
+    width: 60%;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 4rem;
 }
 
 
 nav ul li {
-    margin: 0;
     list-style-type: none;
-    font-size: 24px;
-    padding: 1.2rem;
-    margin: auto 1.5rem;
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+nav a img{
+    height: 30px;
 }
 
 ul li{
@@ -49,6 +51,7 @@ a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.778);
 }
+
 main {
     display: flex;
     align-items: center;
@@ -66,14 +69,17 @@ main {
     position: relative;
     top: 40%;
     left: 8%;
-    font-size: 30px;
     font-family:'Times New Roman', Times, serif;
     min-width: 35vw;
 }
-.texto-grande{
+
+.txt_main h3 {
+    font-size: 35px;
+}
+
+.txt_main .texto-grande{
     font-size: 40px;
     display: flex;
-    margin-left: -3rem;
 
 
 }
@@ -141,6 +147,61 @@ i {
     width: 65%;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+.seccion1_main{
+    display: flex;
+    flex-direction: row;
+}
+
+.seccion1_main img{
+    width: 20%;
+    margin: 8rem 8rem 1rem 1rem;;
+}
+.titulo_nuestro_espacio{
+    width: 60%;
+    margin: 8rem 4rem 1rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.seccion1_main h1{
+    margin: 0 0 3rem 0;
+    font-size: 35px;
+}
+.seccion1_main h2, h3{
+    font-size: 18px;
+    margin-right: 2rem;
+}
+
+.seccion2_main{
+    display: flex;
+    gap: 15%;
+    margin-left: -8rem;
+    margin-top: 2rem;
+}
+.seccion2_main img{
+    width: 26%;
+}
+
+main p{
+    font-size: 21px;
+    margin: 4rem 8rem 2rem 6rem;
+}
+
+.seccion3_main {
+    margin-top: 3rem;
+    margin-left: -1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion3_main img {
+    width: 44%;
+}
 
 
 
