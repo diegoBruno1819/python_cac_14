@@ -52,29 +52,31 @@ a {
     color: rgba(255, 255, 255, 0.778);
 }
 
-main {
-    display: flex;
-    align-items: center;
-} 
+.main_index{
+    width: 100vw;
+}
 .img_main{
     background-image: url(../images/plato_sushi.png);
-    width: 90vw;
-    height: 90vh;
-    margin-left: -20rem;
+    width: 100vw;
+    height: 95vh;
+    margin-left: 5rem;
 }
 
 
 
 .txt_main{
-    position: relative;
-    top: 40%;
-    left: 8%;
-    font-family:'Times New Roman', Times, serif;
-    min-width: 35vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 8rem;
+    margin-left: 4rem;
 }
 
 .txt_main h3 {
     font-size: 35px;
+    margin: 1rem;
+
 }
 
 .txt_main .texto-grande{
@@ -147,9 +149,11 @@ i {
     width: 65%;
 }
 
-main{
+.main_espacio{
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    margin: auto 8rem;
 }
 .seccion1_main{
     display: flex;
@@ -158,11 +162,11 @@ main{
 
 .seccion1_main img{
     width: 20%;
-    margin: 8rem 8rem 1rem 1rem;;
+    margin: 4rem 0;
 }
 .titulo_nuestro_espacio{
     width: 60%;
-    margin: 8rem 4rem 1rem 6rem;
+    margin: 8rem 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -179,28 +183,26 @@ main{
 
 .seccion2_main{
     display: flex;
-    gap: 15%;
-    margin-left: -8rem;
-    margin-top: 2rem;
+    gap: 10%;
 }
 .seccion2_main img{
-    width: 26%;
+    width: 20%;
 }
 
-main p{
-    font-size: 21px;
-    margin: 4rem 8rem 2rem 6rem;
+.parrafo_espacio{
+    font-size: 20px;
+    margin: 4rem 18rem auto auto;
 }
 
 .seccion3_main {
+    width: 82%;
     margin-top: 3rem;
-    margin-left: -1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .seccion3_main img {
-    width: 44%;
+    width: 48%;
 }
 
 
