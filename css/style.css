@@ -1,14 +1,15 @@
 body {
     background-color: black;
     color: rgba(255, 255, 255, 0.76);
-    
+
 }
 
-body, ul {
+body,
+ul {
     margin: 0;
 }
 
-nav{
+nav {
     display: flex;
     height: 4.5rem;
     background-color: rgb(29, 14, 14);
@@ -16,7 +17,7 @@ nav{
     top: 40px;
 }
 
-nav h1{
+nav h1 {
     margin: 20px 6rem;
 }
 
@@ -35,15 +36,15 @@ nav ul li {
     padding-left: 40px;
 }
 
-nav a img{
+nav a img {
     height: 30px;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: white;
 }
 
@@ -52,10 +53,11 @@ a {
     color: rgba(255, 255, 255, 0.778);
 }
 
-.main_index{
+.main_index {
     width: 100vw;
 }
-.img_main{
+
+.img_main {
     background-image: url(../images/plato_sushi.png);
     width: 100vw;
     height: 95vh;
@@ -64,7 +66,7 @@ a {
 
 
 
-.txt_main{
+.txt_main {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -79,7 +81,7 @@ a {
 
 }
 
-.txt_main .texto-grande{
+.txt_main .texto-grande {
     font-size: 40px;
     display: flex;
 
@@ -90,19 +92,21 @@ footer {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     background-color: rgb(0, 0, 0);
+    width: 100%;
 }
 
-.logo_copy_footer{
+.logo_copy_footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.logo_copy_footer p{
+
+.logo_copy_footer p {
     margin-top: 0;
 }
 
-.logo_copy_footer{
+.logo_copy_footer {
     margin-bottom: 0;
     display: flex;
     height: 100%;
@@ -111,7 +115,7 @@ footer {
 }
 
 
-.rrss_footer{
+.rrss_footer {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -121,7 +125,7 @@ footer {
 }
 
 
-.lista_footer{
+.lista_footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -130,7 +134,8 @@ footer {
     padding-bottom: 15px;
     padding-left: 15rem;
 }
-.rrss_footer p{
+
+.rrss_footer p {
     margin-top: 5px;
 }
 
@@ -141,30 +146,32 @@ i {
 }
 
 
-.email{
+.email {
     text-align: center;
 }
 
-.logo-footer{
+.logo-footer {
     width: 65%;
 }
 
-.main_espacio{
+.main_espacio {
     display: flex;
     flex-direction: column;
     width: 100vw;
     margin: auto 8rem;
 }
-.seccion1_main{
+
+.seccion1_main {
     display: flex;
     flex-direction: row;
 }
 
-.seccion1_main img{
+.seccion1_main img {
     width: 20%;
     margin: 4rem 0;
 }
-.titulo_nuestro_espacio{
+
+.titulo_nuestro_espacio {
     width: 60%;
     margin: 8rem 0;
     display: flex;
@@ -172,24 +179,28 @@ i {
     align-items: flex-start;
 
 }
-.seccion1_main h1{
+
+.seccion1_main h1 {
     margin: 0 0 3rem 0;
     font-size: 35px;
 }
-.seccion1_main h2, h3{
+
+.seccion1_main h2,
+h3 {
     font-size: 18px;
     margin-right: 2rem;
 }
 
-.seccion2_main{
+.seccion2_main {
     display: flex;
     gap: 10%;
 }
-.seccion2_main img{
+
+.seccion2_main img {
     width: 20%;
 }
 
-.parrafo_espacio{
+.parrafo_espacio {
     font-size: 20px;
     margin: 4rem 18rem auto auto;
 }
@@ -205,44 +216,131 @@ i {
     width: 48%;
 }
 
-.main_menu{
+.main_menu {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 110vh;
+    height: 130vh;
 }
 
-.seccion1_menu{
+.seccion1_menu {
     width: 25%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-.seccion1_menu h1{
+.seccion1_menu h1 {
     margin-top: 12rem;
     font-size: 40px;
 }
 
-.seccion2_menu{
+.seccion2_menu {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     width: 75%;
 }
 
-.img1-menu{
+.img1-menu {
     position: relative;
     width: 480px;
     transform: translate(0px, 10px);
 }
-.img2-menu{
+
+.img2-menu {
     position: relative;
     width: 500px;
     transform: translate(0px, -400px);
 }
 
 
+.main-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.main-contacto .contenedor-contactanos {
+    width: 40%;
+    height: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+}
 
+.main-contacto .contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+}
 
+.main-contacto .contactanos h3 {
+    margin-top: 1.5rem;
+}
+
+.main-contacto .contactanos label {
+    margin: 10px 1px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-contacto .contactanos input {
+    background-color: rgba(249, 249, 249, 0.4);
+    border: solid 1px grey;
+}
+
+.main-contacto .contactanos textarea {
+    background-color: rgba(249, 249, 249, 0.5);
+    border: solid 1px grey;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 60%;
+}
+
+.main-contacto .contactanos legend {
+    margin: 5px auto;
+    font-size: 18px;
+}
+
+.main-contacto .contactanos textarea::placeholder {
+    color: grey;
+}
+
+.main-contacto .contactanos .nombre,
+.main-contacto .contactanos .apellido,
+.main-contacto .contactanos .email {
+    width: 50%;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.main-contacto .contactanos .btn-contacto {
+    margin-bottom: 1rem;
+}
+
+.main-contacto .contactanos .btn-contacto .enviar,
+.main-contacto .contactanos .btn-contacto .borrar {
+    margin: auto 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(203, 203, 200, 0.8);
+}
+
+.main-contacto .contactanos .nombre,
+.main-contacto .contactanos .apellido,
+.main-contacto .contactanos .email,
+.main-contacto .contactanos ::placeholder {
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+}
