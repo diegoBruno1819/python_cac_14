@@ -31,4 +31,25 @@ function traerUsuarioAPI() {
         })
 }
 
-fun
+// document.getElementById("miFormulario").addEventListener("submit", function(event) {
+
+//     // Obtenemos los valores de los campos
+//     var nombre = document.getElementById("Nombre").value;
+//     var email = document.getElementById("Mail").value;
+//     var apellido = document.getElementById("Apellido").value;
+//     var comentario = document.getElementById("comentario").value;
+//     console.log(nombre, email, apellido, comentario)
+//     // Validación simple: comprobar que los campos no estén vacíos
+//     if (nombre === "" || email === "" || apellido==="" || comentario==="") {
+//       alert("Por favor, completa todos los campos.");
+//       event.preventDefault(); // Evitar que el formulario se envíe
+//     } else {
+//       // Aquí puedes agregar má validaciones según tus necesidades
+//       // Por ejemplo, validar el formato del correo electrónico
+//       var emailRegExp = /\S+@\S+\.\S+/;
+//       if (!emailRegExp.test(email)) {
+//         alert("Por favor, ingresa un correo electrónico válido.");
+//         event.preventDefault();
+//       }
+//     }
+//   });

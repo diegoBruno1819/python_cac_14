@@ -33,21 +33,22 @@
     <!-- MAIN -->
     <main class="main-contacto">
         <div class="contenedor-contactanos">
-            <section class="contactanos">
+            <form class="contactanos" method="post" action="https://formspree.io/f/meqbnebd">
                 <h3>Registrate para obtener noticias y beneficios !</h3>
                 <label for="Nombre">Nombre</label>
-                <input type="Nombre" placeholder="Juan" class="nombre">
+                <input type="Nombre" placeholder="Juan" class="nombre" name="Nombre" required>
                 <label for="Apellido"> Apellido</label>
-                <input type="Apellido" placeholder="Perez" class="apellido">
+                <input type="Apellido" placeholder="Perez" class="apellido" name="Apellido" required>
                 <label for="Mail">Correo electronico</label>
-                <input type="email" placeholder="ejemplo@hotmail.com" required class="email">
+                <input type="email" placeholder="ejemplo@hotmail.com" required class="email" name="Mail" required>
                 <legend>Mensaje</legend>
                 <textarea name="comentario" id="" cols="40" rows="8" placeholder="Ingrese su comentario"
-                    class="comentario"></textarea><br>
+                    class="comentario" required></textarea><br>
                 <section class="btn-contacto">
                     <input type="submit" value="Enviar" class="enviar">
                     <input type="reset" value="Borrar" class="borrar">
                 </section>
+            </form>
         </div>
     </main>
     
