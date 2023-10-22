@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Proyecto CaC Python</title>
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -29,27 +31,36 @@
     </header>
 
     <!-- MAIN -->
-    <main class="main_espacio">
-        <div class="seccion1_main">
-            <div class="titulo_nuestro_espacio">
-                <h1>NUESTRO ESPACIO</h1>
-                <h2>Inspirado en la cultura asiatica, Sakura Sushi combina la mistica de la arquitectura tradicional japonesa con la elegancia y el estilo sofisticado de la modernidad.</h2>
-                <h3>Nuestro espacio los recibe con una delicada musicalizacion e iluminacion tenue para acompañar la cena y cuenta con un patio interno que nos transporta a la ciudad de Kyoto</h3>
-            </div>
-            <img src="../images/img-titulo-nuestro-espacio.png" alt="local-japones">
-        </div>
-        <div class="seccion2_main">
-            <img src="../images/img1_seccion2.png" alt="barra">
-            <img src="../images/img2_seccion2.png" alt="alfombra">
-            <img src="../images/img3_seccion2.png" alt="lampara">
-        </div>
-        <p class="parrafo_espacio">Nuestros platos de excelencia y nuestros tragos de autor serán los protagonistas de una velada única que conserva la autenticidad de la cocina japonesa</p>
-        <div class="seccion3_main">
-            <img src="../images/img1_seccion3.png" alt="coctail">
-            <img src="../images/img2_seccion3.png" alt="plato_sushi">
+    <main class="main-contacto">
+        <div class="contenedor-contactanos">
+            <section class="contactanos">
+                <form id="form">
+                    <h3>Iniciar Sesión</h3>
+                    <!-- <label for="Nombre">Nombre</label>
+                    <input type="Nombre" placeholder="Juan" class="nombre">
+                    <label for="Apellido"> Apellido</label>
+                    <input type="Apellido" placeholder="Perez" class="apellido"> -->
+                    <label for="mail">Correo electronico</label>
+                    <input type="email" id="mail" name="mail" placeholder="ejemplo@hotmail.com" required class="email"><br><br>
+
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="########" required class="email"> <br><br>
+                    <!-- <textarea name="comentario" id="" cols="40" rows="8" placeholder="Ingrese su comentario"
+                        class="comentario"></textarea><br> -->
+                    <section class="btn-contacto">
+                        <button type="submit" >Iniciar Sesión</button>
+                        <!-- <input type="reset" value="Borrar" class="borrar"> -->
+
+                        <p>¿Olvidaste tu contraseña? <a href="/forgot-password">Haz clic aquí</a></p>
+
+                        <p>¿No tienes una cuenta? <a href="/register">Regístrate aquí</a></p>
+                    </section>
+                </form>
+                
+            </section>
         </div>
     </main>
-
+    
     <!-- FOOTER -->
     <footer>
         <div class="logo_copy_footer">
@@ -78,16 +89,17 @@
         </div>
         <div>
             <ul class="lista_footer">
-                <li><a href="./pages/nuestro_espacio.html">Nuestro Espacio</a></li>
-                <li><a href="./pages/menu.html">Menú</a></li>
-                <li><a href="./pages/reservas.html">Reservas</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/login.html">Log In</a></li>
+                <li><a href="../pages/nuestro_espacio.html">Nuestro Espacio</a></li>
+                <li><a href="../pages/menu.html">Menú</a></li>
+                <li><a href="../pages/reservas.html">Reservas</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/login.html">Log In</a></li>
             </ul>
         </div>
     </footer>
 
-
+    <script src="../login.js"></script>
     <script src="https://kit.fontawesome.com/25b6b6b0bb.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
